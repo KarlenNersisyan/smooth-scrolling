@@ -13,8 +13,8 @@ function ScrollWrapper({ children }) {
 	useLayoutEffect(() => {
 		const ctx = gsap.context(() => {
 			smoother.current = ScrollSmoother.create({
-				smooth: 3.3,
-				smoothTouch: 0.3,
+				smooth: 2,
+				smoothTouch: 0.2,
 				effects: true,
 			});
 		}, main);
